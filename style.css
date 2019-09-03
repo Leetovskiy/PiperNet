@@ -1,0 +1,209 @@
+body {
+  padding: 0;
+  padding-top: 65px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: #007765;
+  line-height: normal;
+  font-size: 48px;
+  text-align: center;
+}
+
+p {
+  font-size: 28px;
+  line-height: normal;
+}
+
+section {
+  padding: 2% 0;
+  width: 100%;
+}
+
+.container {
+  width: 70%;
+  padding: 0 55;
+  margin: 0 auto;
+}
+
+.container-header {
+  width: 70%;
+
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-footer {
+  width: 30%;
+  padding: 70px 0;
+  margin: 0 auto;
+}
+
+/* Header-Section Styles */
+header {
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  background: #007765;
+  width: 100%;
+}
+
+#logo {
+  width: 184px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+nav {
+  margin-left: 10px;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/* ### */
+
+/* Jumbotron-Section */
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("images/image-8.png");
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+
+  font-size: 48px;
+  text-align: center;
+  line-height: auto;
+  font-weight: 500;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* ### */
+
+/* TheProblem-Section */
+.the-problem {
+  width: 100%;
+  background: white;
+}
+/* ### */
+
+/* Hero-Section */
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  width: 100%;
+  color: white;
+
+  text-align: center;
+
+  background: url("images/image-9.png");
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+}
+
+#hero-content {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: normal;
+}
+/* ### */
+
+/* PPC-Section */
+.ppc {
+  background: white;
+}
+
+#PPC-logo {
+  float: left;
+  margin-right: 20px;
+}
+/* ### */
+
+/* TheTeam-Section */
+.the-team {
+  background: #eeeeee;
+}
+
+#member-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: stretch;
+
+  width: 100%;
+}
+
+.member-card {
+  text-align: center;
+  width: 350px;
+  margin: 30px 0;
+}
+
+.member-name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #007765;
+}
+
+.member-position {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+/* ### */
+
+/* Footer-Section */
+footer {
+  width: 100%;
+  background: #333333;
+  text-align: center;
+}
+
+#footer-text {
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+}
+/* ### */
+
+/* Псевдоэлементы для того, чтобы
+    шапка не перекрывала заголовок
+    при переходе из навигации */
+#the-problem:before {
+  display: block;
+  content: "";
+  height: 77px;
+  margin: -70px 0 0;
+}
+
+#ppc:before {
+  display: block;
+  content: "";
+  height: 77px;
+  margin: -70px 0 0;
+}
+
+#the-team:before {
+  display: block;
+  content: "";
+  height: 77px;
+  margin: -70px 0 0;
+}
