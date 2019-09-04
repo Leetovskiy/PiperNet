@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   padding: 0;
   padding-top: 65px;
@@ -42,6 +43,7 @@ section {
   padding: 70px 0;
   margin: 0 auto;
 }
+/* ### */
 
 /* Header-Section Styles */
 header {
@@ -78,7 +80,7 @@ nav a {
   padding-top: 100px;
   padding-bottom: 100px;
   color: white;
-  background: url("images/image-8.png");
+  background: url("images/background-jumbo.png");
   background-position: center center;
   background-size: cover;
   background-color: #464646;
@@ -107,7 +109,7 @@ nav a {
 
   text-align: center;
 
-  background: url("images/image-9.png");
+  background: url("images/background-hero.png");
   background-position: center center;
   background-size: cover;
   background-color: #464646;
@@ -184,9 +186,9 @@ footer {
 }
 /* ### */
 
-/* Псевдоэлементы для того, чтобы
-    шапка не перекрывала заголовок
-    при переходе из навигации */
+/* Pseudo-elements in order to
+   the header did not overlap the content
+   when navigating */
 #the-problem:before {
   display: block;
   content: "";
